@@ -1,0 +1,116 @@
+Material Base
+	string m_Name = "M_3dssgb_sky"
+	PPtr<Shader> m_Shader
+		int m_FileID = 3
+		SInt64 m_PathID = 2068897651709689970
+	string m_ShaderKeywords = "_FOG_DISABLE _VERTEXCOLOR_DISABLE"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_MainTex"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 15
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_MainTex2"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 0
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 12
+				[0]
+				pair data
+					string first = "_FOG"
+					float second = 0
+				[1]
+				pair data
+					string first = "_FogIntencity"
+					float second = 1
+				[2]
+				pair data
+					string first = "_IGNORE_FAR"
+					float second = 0
+				[3]
+				pair data
+					string first = "_MAIN_COLOR"
+					float second = 0
+				[4]
+				pair data
+					string first = "_ReverseScrollType"
+					float second = 0
+				[5]
+				pair data
+					string first = "_ScrollSpeedU"
+					float second = 0
+				[6]
+				pair data
+					string first = "_ScrollSpeedU2"
+					float second = 0
+				[7]
+				pair data
+					string first = "_ScrollSpeedV"
+					float second = 0
+				[8]
+				pair data
+					string first = "_ScrollSpeedV2"
+					float second = 0
+				[9]
+				pair data
+					string first = "_TEXTURE"
+					float second = 0
+				[10]
+				pair data
+					string first = "_TEXTURE_BLEND"
+					float second = 0
+				[11]
+				pair data
+					string first = "_VERTEXCOLOR"
+					float second = 0
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[1]
+				pair data
+					string first = "_VertexColor"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1

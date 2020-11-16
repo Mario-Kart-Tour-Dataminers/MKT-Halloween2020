@@ -1,0 +1,239 @@
+Material Base
+	string m_Name = "M_AirCurrentB_Alb"
+	PPtr<Shader> m_Shader
+		int m_FileID = 1
+		SInt64 m_PathID = 8502921635026188821
+	string m_ShaderKeywords = "_ALPHAPREMULTIPLY_ON _USE_TEXTURE_ENABLE"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 1
+				[0]
+				pair data
+					string first = "_AlphaTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = -6802219604188129820
+						Vector2f m_Scale
+							float x = 2
+							float y = 0.5
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 42
+				[0]
+				pair data
+					string first = "_AlbedoScrollSpeedU"
+					float second = 0
+				[1]
+				pair data
+					string first = "_AlbedoScrollSpeedV"
+					float second = 0
+				[2]
+				pair data
+					string first = "_AlphaMaskScrollSpeedU"
+					float second = 0
+				[3]
+				pair data
+					string first = "_AlphaMaskScrollSpeedV"
+					float second = 0
+				[4]
+				pair data
+					string first = "_AlphaTextureScrollSpeedU"
+					float second = -1.5
+				[5]
+				pair data
+					string first = "_AlphaTextureScrollSpeedV"
+					float second = 0
+				[6]
+				pair data
+					string first = "_BumpScale"
+					float second = 1
+				[7]
+				pair data
+					string first = "_Cutoff"
+					float second = 0.5
+				[8]
+				pair data
+					string first = "_DetailNormalMapScale"
+					float second = 1
+				[9]
+				pair data
+					string first = "_DstBlend"
+					float second = 10
+				[10]
+				pair data
+					string first = "_GlossMapScale"
+					float second = 1
+				[11]
+				pair data
+					string first = "_Glossiness"
+					float second = 0.5
+				[12]
+				pair data
+					string first = "_GlossyReflections"
+					float second = 1
+				[13]
+				pair data
+					string first = "_InvFade"
+					float second = 1
+				[14]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[15]
+				pair data
+					string first = "_Mode"
+					float second = 3
+				[16]
+				pair data
+					string first = "_Occlusion"
+					float second = 1
+				[17]
+				pair data
+					string first = "_OcclusionStrength"
+					float second = 1
+				[18]
+				pair data
+					string first = "_Parallax"
+					float second = 0.02
+				[19]
+				pair data
+					string first = "_ScrollSpeedU"
+					float second = -1
+				[20]
+				pair data
+					string first = "_ScrollSpeedV"
+					float second = 0
+				[21]
+				pair data
+					string first = "_Smoothness"
+					float second = 0
+				[22]
+				pair data
+					string first = "_SmoothnessTextureChannel"
+					float second = 0
+				[23]
+				pair data
+					string first = "_SpecularHighlights"
+					float second = 1
+				[24]
+				pair data
+					string first = "_SrcBlend"
+					float second = 1
+				[25]
+				pair data
+					string first = "_USE_TEXTURE"
+					float second = 0
+				[26]
+				pair data
+					string first = "_UVSec"
+					float second = 0
+				[27]
+				pair data
+					string first = "_WaveFreq"
+					float second = 1
+				[28]
+				pair data
+					string first = "_WaveHeight"
+					float second = 3.1
+				[29]
+				pair data
+					string first = "_WaveSlopeMag"
+					float second = 0
+				[30]
+				pair data
+					string first = "_WaveSpeed"
+					float second = 100
+				[31]
+				pair data
+					string first = "_WhitecapsBeginAlpha"
+					float second = 0
+				[32]
+				pair data
+					string first = "_WhitecapsDepthMax"
+					float second = 10000
+				[33]
+				pair data
+					string first = "_WhitecapsDepthMin"
+					float second = 0
+				[34]
+				pair data
+					string first = "_WhitecapsEndAlpha"
+					float second = 0
+				[35]
+				pair data
+					string first = "_WhitecapsScrollSinScaleU"
+					float second = 0
+				[36]
+				pair data
+					string first = "_WhitecapsScrollSinScaleV"
+					float second = 0
+				[37]
+				pair data
+					string first = "_WhitecapsScrollSinSpeedU"
+					float second = 0
+				[38]
+				pair data
+					string first = "_WhitecapsScrollSinSpeedV"
+					float second = 0
+				[39]
+				pair data
+					string first = "_WhitecapsScrollSpeedU"
+					float second = 0
+				[40]
+				pair data
+					string first = "_WhitecapsScrollSpeedV"
+					float second = 0
+				[41]
+				pair data
+					string first = "_ZWrite"
+					float second = 0
+		map m_Colors
+			Array Array
+			int size = 4
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 0.328
+				[1]
+				pair data
+					string first = "_EmissionColor"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+				[2]
+				pair data
+					string first = "_TintColor"
+					ColorRGBA second
+						float r = 0.1764706
+						float g = 0.1764706
+						float b = 0.1764706
+						float a = 1
+				[3]
+				pair data
+					string first = "_WaveCenterPos"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0

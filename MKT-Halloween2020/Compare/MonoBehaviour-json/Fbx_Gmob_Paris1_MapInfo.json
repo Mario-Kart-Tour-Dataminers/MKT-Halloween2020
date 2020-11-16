@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gmob_Paris1_MapInfo",
+  "rect": {
+    "x": -330.667267,
+    "y": -440.678284,
+    "width": 674.6804,
+    "height": 674.6804
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": 1499182061493575451
+  },
+  "offset": {
+    "x": 15.0,
+    "y": 30.0
+  }
+}

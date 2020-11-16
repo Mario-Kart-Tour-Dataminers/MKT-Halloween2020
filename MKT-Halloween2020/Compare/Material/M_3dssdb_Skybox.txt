@@ -1,0 +1,62 @@
+Material Base
+	string m_Name = "M_3dssdb_Skybox"
+	PPtr<Shader> m_Shader
+		int m_FileID = 1
+		SInt64 m_PathID = 106
+	string m_ShaderKeywords = "_SUNDISK_HIGH_QUALITY"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 0
+		map m_Floats
+			Array Array
+			int size = 5
+				[0]
+				pair data
+					string first = "_AtmosphereThickness"
+					float second = 0.67
+				[1]
+				pair data
+					string first = "_Exposure"
+					float second = 1
+				[2]
+				pair data
+					string first = "_SunDisk"
+					float second = 2
+				[3]
+				pair data
+					string first = "_SunSize"
+					float second = 0
+				[4]
+				pair data
+					string first = "_SunSizeConvergence"
+					float second = 5
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_GroundColor"
+					ColorRGBA second
+						float r = 0.1985294
+						float g = 0.1602733
+						float b = 0.1255407
+						float a = 1
+				[1]
+				pair data
+					string first = "_SkyTint"
+					ColorRGBA second
+						float r = 0.3684968
+						float g = 0.2068015
+						float b = 0.625
+						float a = 1

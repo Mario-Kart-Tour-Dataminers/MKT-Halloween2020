@@ -1,0 +1,262 @@
+Material Base
+	string m_Name = "M_ItemTogezo_Bomb_Bld"
+	PPtr<Shader> m_Shader
+		int m_FileID = 14
+		SInt64 m_PathID = -2939154046870253836
+	string m_ShaderKeywords = "_USE_TEXTURE_ENABLE"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 4
+				[0]
+				pair data
+					string first = "_Alpha2Texture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 15
+							SInt64 m_PathID = -3654114695088105817
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_AlphaTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 2843580482758194186
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[2]
+				pair data
+					string first = "_DissolveTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 13
+							SInt64 m_PathID = 1896480160985790686
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[3]
+				pair data
+					string first = "_MainTex"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 3789878511135026533
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 40
+				[0]
+				pair data
+					string first = "_AlbedoScrollSpeedU"
+					float second = 0
+				[1]
+				pair data
+					string first = "_AlbedoScrollSpeedV"
+					float second = -0.5
+				[2]
+				pair data
+					string first = "_AlbedoTileFreq"
+					float second = -1000
+				[3]
+				pair data
+					string first = "_AlbedoTileSplitU"
+					float second = 1
+				[4]
+				pair data
+					string first = "_AlbedoTileSplitV"
+					float second = 1
+				[5]
+				pair data
+					string first = "_Alpha2TextureScrollSpeedU"
+					float second = 0
+				[6]
+				pair data
+					string first = "_Alpha2TextureScrollSpeedV"
+					float second = 0
+				[7]
+				pair data
+					string first = "_AlphaTextureScrollSpeedU"
+					float second = 0
+				[8]
+				pair data
+					string first = "_AlphaTextureScrollSpeedV"
+					float second = -0.5
+				[9]
+				pair data
+					string first = "_BumpScale"
+					float second = 1
+				[10]
+				pair data
+					string first = "_Cutoff"
+					float second = 0.5
+				[11]
+				pair data
+					string first = "_DetailNormalMapScale"
+					float second = 1
+				[12]
+				pair data
+					string first = "_DissolveScrollSpeedU"
+					float second = 0
+				[13]
+				pair data
+					string first = "_DissolveScrollSpeedV"
+					float second = -1
+				[14]
+				pair data
+					string first = "_DissolveStart"
+					float second = 0.4
+				[15]
+				pair data
+					string first = "_DissolveTextureScrollSpeedU"
+					float second = 0
+				[16]
+				pair data
+					string first = "_DissolveTextureScrollSpeedV"
+					float second = -2
+				[17]
+				pair data
+					string first = "_DissolveTime"
+					float second = 0.4
+				[18]
+				pair data
+					string first = "_DstBlend"
+					float second = 0
+				[19]
+				pair data
+					string first = "_GlossMapScale"
+					float second = 1
+				[20]
+				pair data
+					string first = "_Glossiness"
+					float second = 0.5
+				[21]
+				pair data
+					string first = "_GlossyReflections"
+					float second = 1
+				[22]
+				pair data
+					string first = "_InvFade"
+					float second = 1
+				[23]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[24]
+				pair data
+					string first = "_Mode"
+					float second = 0
+				[25]
+				pair data
+					string first = "_Occlusion"
+					float second = 1
+				[26]
+				pair data
+					string first = "_OcclusionStrength"
+					float second = 1
+				[27]
+				pair data
+					string first = "_Parallax"
+					float second = 0.02
+				[28]
+				pair data
+					string first = "_ScrollSpeedU"
+					float second = 0
+				[29]
+				pair data
+					string first = "_ScrollSpeedV"
+					float second = -1
+				[30]
+				pair data
+					string first = "_Smoothness"
+					float second = 0
+				[31]
+				pair data
+					string first = "_SmoothnessTextureChannel"
+					float second = 0
+				[32]
+				pair data
+					string first = "_SpecularHighlights"
+					float second = 1
+				[33]
+				pair data
+					string first = "_SrcBlend"
+					float second = 1
+				[34]
+				pair data
+					string first = "_USE_TEXTURE"
+					float second = 0
+				[35]
+				pair data
+					string first = "_UVSec"
+					float second = 0
+				[36]
+				pair data
+					string first = "_WarpScale"
+					float second = 0
+				[37]
+				pair data
+					string first = "_WarpScrollSpeedU"
+					float second = 0
+				[38]
+				pair data
+					string first = "_WarpScrollSpeedV"
+					float second = 0
+				[39]
+				pair data
+					string first = "_ZWrite"
+					float second = 1
+		map m_Colors
+			Array Array
+			int size = 3
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[1]
+				pair data
+					string first = "_EmissionColor"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1
+				[2]
+				pair data
+					string first = "_TintColor"
+					ColorRGBA second
+						float r = 0.5
+						float g = 0.5
+						float b = 0.5
+						float a = 0.5

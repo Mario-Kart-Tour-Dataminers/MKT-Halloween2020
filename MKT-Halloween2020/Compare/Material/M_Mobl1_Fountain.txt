@@ -1,0 +1,100 @@
+Material Base
+	string m_Name = "M_Mobl1_Fountain"
+	PPtr<Shader> m_Shader
+		int m_FileID = 10
+		SInt64 m_PathID = 4231857831413525649
+	string m_ShaderKeywords = ""
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_AlphaTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 16
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_MainTex"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 0
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 8
+				[0]
+				pair data
+					string first = "_AlbedoScrollSpeedU"
+					float second = 0
+				[1]
+				pair data
+					string first = "_AlbedoScrollSpeedV"
+					float second = 0
+				[2]
+				pair data
+					string first = "_AlphaTextureScrollSpeedU"
+					float second = 0.2
+				[3]
+				pair data
+					string first = "_AlphaTextureScrollSpeedV"
+					float second = 2
+				[4]
+				pair data
+					string first = "_WaveFreq"
+					float second = 1.23
+				[5]
+				pair data
+					string first = "_WaveHeight"
+					float second = 0.05
+				[6]
+				pair data
+					string first = "_WaveSlopeMag"
+					float second = 1
+				[7]
+				pair data
+					string first = "_WaveSpeed"
+					float second = 10
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[1]
+				pair data
+					string first = "_WaveCenterPos"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0

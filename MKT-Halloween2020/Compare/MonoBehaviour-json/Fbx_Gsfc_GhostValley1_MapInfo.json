@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gsfc_GhostValley1_MapInfo",
+  "rect": {
+    "x": -197.849991,
+    "y": -196.7,
+    "width": 392.999969,
+    "height": 392.999969
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": 8665787020711366056
+  },
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

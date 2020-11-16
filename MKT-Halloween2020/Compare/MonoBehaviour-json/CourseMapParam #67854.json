@@ -1,0 +1,120 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1253097590706675564
+  },
+  "m_Name": "CourseMapParam",
+  "mMapObjArray": [
+    {
+      "m_FileID": 4,
+      "m_PathID": 4330424270904668631
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -9133606543255873582
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -1099803160674548907
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 359054903284863151
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": 2469908827376197607
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": -2092253732852983294
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": -7937163330501367788
+    },
+    {
+      "m_FileID": 11,
+      "m_PathID": 2047467482819929645
+    },
+    {
+      "m_FileID": 12,
+      "m_PathID": -1351954998463601693
+    },
+    {
+      "m_FileID": 13,
+      "m_PathID": 1374915329955842855
+    }
+  ],
+  "mEffectAreaEnv": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mEffectAreaCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mStartGridMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mStartGridMaterials": [
+    {
+      "m_FileID": 14,
+      "m_PathID": 3677075346786556131
+    },
+    {
+      "m_FileID": 15,
+      "m_PathID": -970130676964456472
+    }
+  ],
+  "mIsOverrideStartGridParam": 0,
+  "mStartGridParam": {
+    "Row": 2,
+    "Column": 4,
+    "Width": 4.0,
+    "Height": 4.0,
+    "Slide1": 1.0,
+    "Slide2": 2.0,
+    "SlideZ": 0.0
+  },
+  "mCombinedMapObject": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2388660822793670234
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5702642059403673779
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5513129156421056092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4161184386217204639
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5528479898408623494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2347110205439824162
+    }
+  ],
+  "mCourseParam": {
+    "DriveSpeedRatioMin": 0.0,
+    "DriveSpeedRatioMax": 0.0,
+    "PosMoveTotalMin": 0.0,
+    "PosMoveTotalMax": 0.0,
+    "LapTimeAveMin": 0.0,
+    "LapTimeAveMax": 0.0
+  }
+}

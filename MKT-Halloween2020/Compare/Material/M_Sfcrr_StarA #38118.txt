@@ -1,0 +1,42 @@
+Material Base
+	string m_Name = "M_Sfcrr_StarA"
+	PPtr<Shader> m_Shader
+		int m_FileID = 13
+		SInt64 m_PathID = -290462704976851445
+	string m_ShaderKeywords = "_FOG_DISABLE _VERTEXCOLOR_ADD"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 0
+		map m_Floats
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_FOG"
+					float second = 1
+				[1]
+				pair data
+					string first = "_VERTEXCOLOR"
+					float second = 2
+		map m_Colors
+			Array Array
+			int size = 1
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 0.08819799
+						float g = 0.2277272
+						float b = 0.422
+						float a = 1

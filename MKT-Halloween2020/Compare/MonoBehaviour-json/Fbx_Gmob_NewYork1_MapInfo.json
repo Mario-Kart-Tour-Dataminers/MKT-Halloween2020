@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gmob_NewYork1_MapInfo",
+  "rect": {
+    "x": -334.895325,
+    "y": -406.842316,
+    "width": 545.6139,
+    "height": 545.6139
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": 7389171701580492402
+  },
+  "offset": {
+    "x": -25.0,
+    "y": 0.0
+  }
+}

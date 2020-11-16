@@ -1,0 +1,151 @@
+Material Base
+	string m_Name = "M_TrampolineKinokoBlue"
+	PPtr<Shader> m_Shader
+		int m_FileID = 1
+		SInt64 m_PathID = -3207065288404114738
+	string m_ShaderKeywords = "_REFLECTIONPROBETYPE_NO"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 5
+				[0]
+				pair data
+					string first = "_EmissionMap"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = -4002521520996136524
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_HeuristicReflection"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 0
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[2]
+				pair data
+					string first = "_MSA"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = -1983246968500279961
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[3]
+				pair data
+					string first = "_MainTex"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 2506087171288202082
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[4]
+				pair data
+					string first = "_SphereMap"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 2851335392641153995
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 7
+				[0]
+				pair data
+					string first = "_EmissionIntensity"
+					float second = 1.2
+				[1]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[2]
+				pair data
+					string first = "_NormalDiff"
+					float second = 0
+				[3]
+				pair data
+					string first = "_Occlusion"
+					float second = 1
+				[4]
+				pair data
+					string first = "_ReflectionProbeType"
+					float second = 0
+				[5]
+				pair data
+					string first = "_Smoothness"
+					float second = 0.5
+				[6]
+				pair data
+					string first = "_StencilOp"
+					float second = 0
+		map m_Colors
+			Array Array
+			int size = 4
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 0
+						float g = 0.5862069
+						float b = 1
+						float a = 1
+				[1]
+				pair data
+					string first = "_Emission"
+					ColorRGBA second
+						float r = 0.5071367
+						float g = 0.9852941
+						float b = 0.9259366
+						float a = 0
+				[2]
+				pair data
+					string first = "_FixedReflColor"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[3]
+				pair data
+					string first = "_NormalRand"
+					ColorRGBA second
+						float r = 9993.169
+						float g = 5715.817
+						float b = 4488.509
+						float a = 34.2347

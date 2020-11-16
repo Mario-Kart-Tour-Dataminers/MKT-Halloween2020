@@ -1,0 +1,216 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1253097590706675564
+  },
+  "m_Name": "CourseMapParam",
+  "mMapObjArray": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6323849852381108288
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -435317211074978859
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -1099803160674548907
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 757040245166943341
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": -8422229088281927072
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -7992127826733754745
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": -3917006358116989840
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": 7902925131818173625
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": -8716633617450654241
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": 1743987333103629139
+    },
+    {
+      "m_FileID": 11,
+      "m_PathID": 1783806711236351291
+    },
+    {
+      "m_FileID": 12,
+      "m_PathID": -7683271295301486976
+    },
+    {
+      "m_FileID": 13,
+      "m_PathID": 5290030480101958523
+    },
+    {
+      "m_FileID": 14,
+      "m_PathID": 2047467482819929645
+    },
+    {
+      "m_FileID": 15,
+      "m_PathID": 6354370913827613679
+    },
+    {
+      "m_FileID": 16,
+      "m_PathID": 7005971610154430519
+    },
+    {
+      "m_FileID": 17,
+      "m_PathID": 3089172396742571038
+    },
+    {
+      "m_FileID": 18,
+      "m_PathID": 3179527181048846069
+    },
+    {
+      "m_FileID": 19,
+      "m_PathID": -2467717485903709680
+    },
+    {
+      "m_FileID": 20,
+      "m_PathID": -1661494899871940326
+    },
+    {
+      "m_FileID": 21,
+      "m_PathID": -7155815057850072226
+    },
+    {
+      "m_FileID": 22,
+      "m_PathID": -5363283418415604746
+    },
+    {
+      "m_FileID": 23,
+      "m_PathID": -369205056034167682
+    },
+    {
+      "m_FileID": 24,
+      "m_PathID": -7433275637427446320
+    },
+    {
+      "m_FileID": 25,
+      "m_PathID": 5661814164476727614
+    },
+    {
+      "m_FileID": 26,
+      "m_PathID": -1062230996956218320
+    },
+    {
+      "m_FileID": 27,
+      "m_PathID": 5881784520332391441
+    },
+    {
+      "m_FileID": 28,
+      "m_PathID": -3689391981113644437
+    },
+    {
+      "m_FileID": 29,
+      "m_PathID": -9024148423735019537
+    },
+    {
+      "m_FileID": 30,
+      "m_PathID": -3323656512772689678
+    },
+    {
+      "m_FileID": 31,
+      "m_PathID": -1351954998463601693
+    },
+    {
+      "m_FileID": 32,
+      "m_PathID": -5721121439395460536
+    },
+    {
+      "m_FileID": 33,
+      "m_PathID": 9041340070739842001
+    },
+    {
+      "m_FileID": 34,
+      "m_PathID": 2771806175360589030
+    }
+  ],
+  "mEffectAreaEnv": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mEffectAreaCamera": {
+    "m_FileID": 35,
+    "m_PathID": 7293701459533287670
+  },
+  "mStartGridMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mStartGridMaterials": [
+    {
+      "m_FileID": 36,
+      "m_PathID": 3677075346786556131
+    },
+    {
+      "m_FileID": 37,
+      "m_PathID": 5491884916092815743
+    }
+  ],
+  "mIsOverrideStartGridParam": 0,
+  "mStartGridParam": {
+    "Row": 4,
+    "Column": 2,
+    "Width": 20.0,
+    "Height": 3.5,
+    "Slide1": 7.0,
+    "Slide2": 2.0,
+    "SlideZ": -10.0
+  },
+  "mCombinedMapObject": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1033268095035875977
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8107899351672556789
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4103443545211420002
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8306527888533900747
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8317255803069140420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3578578698412082009
+    }
+  ],
+  "mCourseParam": {
+    "DriveSpeedRatioMin": 0.0,
+    "DriveSpeedRatioMax": 0.0,
+    "PosMoveTotalMin": 0.0,
+    "PosMoveTotalMax": 0.0,
+    "LapTimeAveMin": 0.0,
+    "LapTimeAveMax": 0.0
+  }
+}

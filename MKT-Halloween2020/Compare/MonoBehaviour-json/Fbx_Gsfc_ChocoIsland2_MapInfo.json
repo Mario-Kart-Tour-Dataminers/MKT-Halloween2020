@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gsfc_ChocoIsland2_MapInfo",
+  "rect": {
+    "x": -204.153275,
+    "y": -210.350967,
+    "width": 417.8269,
+    "height": 417.8269
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": 2292710179186529151
+  },
+  "offset": {
+    "x": 10.0,
+    "y": 0.0
+  }
+}

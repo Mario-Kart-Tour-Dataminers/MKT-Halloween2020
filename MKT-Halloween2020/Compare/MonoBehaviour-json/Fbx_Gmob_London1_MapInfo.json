@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gmob_London1_MapInfo",
+  "rect": {
+    "x": -489.20575,
+    "y": -692.5404,
+    "width": 756.528,
+    "height": 756.528
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": 5767427200265528201
+  },
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

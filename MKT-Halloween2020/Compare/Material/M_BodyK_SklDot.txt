@@ -1,0 +1,42 @@
+Material Base
+	string m_Name = "M_BodyK_SklDot"
+	PPtr<Shader> m_Shader
+		int m_FileID = 5
+		SInt64 m_PathID = -290462704976851445
+	string m_ShaderKeywords = "_FOG_ENABLE _REFLECTIONPROBETYPE_NO _VERTEXCOLOR_DISABLE"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 0
+		map m_Floats
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_FOG"
+					float second = 0
+				[1]
+				pair data
+					string first = "_VERTEXCOLOR"
+					float second = 0
+		map m_Colors
+			Array Array
+			int size = 1
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1

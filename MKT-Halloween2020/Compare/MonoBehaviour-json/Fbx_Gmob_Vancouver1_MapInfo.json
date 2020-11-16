@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gmob_Vancouver1_MapInfo",
+  "rect": {
+    "x": -173.3273,
+    "y": -801.9377,
+    "width": 698.4979,
+    "height": 698.4979
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": -596554923020906381
+  },
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

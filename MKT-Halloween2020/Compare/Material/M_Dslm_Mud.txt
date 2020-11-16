@@ -1,0 +1,192 @@
+Material Base
+	string m_Name = "M_Dslm_Mud"
+	PPtr<Shader> m_Shader
+		int m_FileID = 9
+		SInt64 m_PathID = 6578381901885338357
+	string m_ShaderKeywords = "_REFLECTIONPROBETYPE_YES"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_HeuristicReflection"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 14
+							SInt64 m_PathID = 5736271409713535978
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_MSA"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 22
+						Vector2f m_Scale
+							float x = 6
+							float y = 6
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 23
+				[0]
+				pair data
+					string first = "_AlbedoScrollSpeedU"
+					float second = 0
+				[1]
+				pair data
+					string first = "_AlbedoScrollSpeedV"
+					float second = 0
+				[2]
+				pair data
+					string first = "_CameraNearColorMaxDistance"
+					float second = 25
+				[3]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[4]
+				pair data
+					string first = "_NormalDiff"
+					float second = 0
+				[5]
+				pair data
+					string first = "_Occlusion"
+					float second = 1
+				[6]
+				pair data
+					string first = "_ReflectionProbeType"
+					float second = 1
+				[7]
+				pair data
+					string first = "_Smoothness"
+					float second = 0.178
+				[8]
+				pair data
+					string first = "_StencilOp"
+					float second = 0
+				[9]
+				pair data
+					string first = "_WaveFreq"
+					float second = 6.7
+				[10]
+				pair data
+					string first = "_WaveHeight"
+					float second = 0.1
+				[11]
+				pair data
+					string first = "_WaveSlopeMag"
+					float second = 1
+				[12]
+				pair data
+					string first = "_WaveSpeed"
+					float second = -100
+				[13]
+				pair data
+					string first = "_WhitecapsBeginAlpha"
+					float second = 0.491
+				[14]
+				pair data
+					string first = "_WhitecapsDepthMax"
+					float second = 50
+				[15]
+				pair data
+					string first = "_WhitecapsDepthMin"
+					float second = 1396
+				[16]
+				pair data
+					string first = "_WhitecapsEndAlpha"
+					float second = 0.545
+				[17]
+				pair data
+					string first = "_WhitecapsScrollSinScaleU"
+					float second = -7.3
+				[18]
+				pair data
+					string first = "_WhitecapsScrollSinScaleV"
+					float second = -10
+				[19]
+				pair data
+					string first = "_WhitecapsScrollSinSpeedU"
+					float second = 0
+				[20]
+				pair data
+					string first = "_WhitecapsScrollSinSpeedV"
+					float second = 0
+				[21]
+				pair data
+					string first = "_WhitecapsScrollSpeedU"
+					float second = -1.9
+				[22]
+				pair data
+					string first = "_WhitecapsScrollSpeedV"
+					float second = 2.7
+		map m_Colors
+			Array Array
+			int size = 6
+				[0]
+				pair data
+					string first = "_CameraNearColor"
+					ColorRGBA second
+						float r = 0.07058824
+						float g = 0.05515333
+						float b = 0.04515572
+						float a = 1
+				[1]
+				pair data
+					string first = "_CameraNearColorUVScale"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[2]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 0.7450981
+						float g = 0.2901961
+						float b = 0.1568628
+						float a = 1
+				[3]
+				pair data
+					string first = "_FixedReflColor"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[4]
+				pair data
+					string first = "_NormalRand"
+					ColorRGBA second
+						float r = 9993.169
+						float g = 5715.817
+						float b = 4488.509
+						float a = 34.2347
+				[5]
+				pair data
+					string first = "_WaveCenterPos"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0

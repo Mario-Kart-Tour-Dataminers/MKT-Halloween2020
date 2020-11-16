@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 980329048157257672
+  },
+  "m_Name": "Fbx_Gmob_Tokyo1_MapInfo",
+  "rect": {
+    "x": -302.46814,
+    "y": -315.5739,
+    "width": 492.884216,
+    "height": 492.884216
+  },
+  "sprite": {
+    "m_FileID": 0,
+    "m_PathID": -661624834100789772
+  },
+  "offset": {
+    "x": 15.0,
+    "y": 0.0
+  }
+}

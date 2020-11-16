@@ -1,0 +1,66 @@
+Material Base
+	string m_Name = "M_Dslm_Chandelier_Yellow"
+	PPtr<Shader> m_Shader
+		int m_FileID = 17
+		SInt64 m_PathID = -290462704976851445
+	string m_ShaderKeywords = "_FOG_ENABLE _VERTEXCOLOR_ADD"
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 0
+		map m_Floats
+			Array Array
+			int size = 6
+				[0]
+				pair data
+					string first = "_EmissionIntensity"
+					float second = 2
+				[1]
+				pair data
+					string first = "_FOG"
+					float second = 0
+				[2]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[3]
+				pair data
+					string first = "_Occlusion"
+					float second = 1
+				[4]
+				pair data
+					string first = "_Smoothness"
+					float second = 0.1
+				[5]
+				pair data
+					string first = "_VERTEXCOLOR"
+					float second = 2
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 0.8078431
+						float b = 0
+						float a = 1
+				[1]
+				pair data
+					string first = "_Emission"
+					ColorRGBA second
+						float r = 0.3455882
+						float g = 0.3021108
+						float b = 0.1905817
+						float a = 1

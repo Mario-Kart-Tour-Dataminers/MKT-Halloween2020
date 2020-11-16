@@ -1,0 +1,176 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1253097590706675564
+  },
+  "m_Name": "CourseMapParam",
+  "mMapObjArray": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -1099803160674548907
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -8261408463766879608
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -7992127826733754745
+    },
+    {
+      "m_FileID": 4,
+      "m_PathID": 7902925131818173625
+    },
+    {
+      "m_FileID": 5,
+      "m_PathID": 2780778863115553754
+    },
+    {
+      "m_FileID": 6,
+      "m_PathID": -1155653427451956888
+    },
+    {
+      "m_FileID": 7,
+      "m_PathID": 3920391295213928303
+    },
+    {
+      "m_FileID": 8,
+      "m_PathID": 1783806711236351291
+    },
+    {
+      "m_FileID": 9,
+      "m_PathID": 5290030480101958523
+    },
+    {
+      "m_FileID": 10,
+      "m_PathID": 2047467482819929645
+    },
+    {
+      "m_FileID": 11,
+      "m_PathID": 4779036817477496318
+    },
+    {
+      "m_FileID": 12,
+      "m_PathID": 1454360376815545322
+    },
+    {
+      "m_FileID": 13,
+      "m_PathID": -8608055214734057672
+    },
+    {
+      "m_FileID": 14,
+      "m_PathID": 3089172396742571038
+    },
+    {
+      "m_FileID": 15,
+      "m_PathID": 1158952160546323736
+    },
+    {
+      "m_FileID": 16,
+      "m_PathID": 1567038846916501368
+    },
+    {
+      "m_FileID": 17,
+      "m_PathID": -1459047120153460221
+    },
+    {
+      "m_FileID": 18,
+      "m_PathID": 5563155060598646939
+    },
+    {
+      "m_FileID": 19,
+      "m_PathID": -5404016830030943228
+    },
+    {
+      "m_FileID": 20,
+      "m_PathID": 1273198995424548700
+    },
+    {
+      "m_FileID": 21,
+      "m_PathID": 3945621986495836585
+    },
+    {
+      "m_FileID": 22,
+      "m_PathID": 5661814164476727614
+    },
+    {
+      "m_FileID": 23,
+      "m_PathID": -1351954998463601693
+    },
+    {
+      "m_FileID": 24,
+      "m_PathID": -2805354293015935204
+    }
+  ],
+  "mEffectAreaEnv": {
+    "m_FileID": 25,
+    "m_PathID": 7995186221092881065
+  },
+  "mEffectAreaCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mStartGridMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mStartGridMaterials": [
+    {
+      "m_FileID": 26,
+      "m_PathID": 3677075346786556131
+    },
+    {
+      "m_FileID": 27,
+      "m_PathID": 4938302095226385096
+    }
+  ],
+  "mIsOverrideStartGridParam": 0,
+  "mStartGridParam": {
+    "Row": 2,
+    "Column": 4,
+    "Width": 4.0,
+    "Height": 4.0,
+    "Slide1": 1.0,
+    "Slide2": 2.0,
+    "SlideZ": 0.0
+  },
+  "mCombinedMapObject": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3211909629045019439
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4946271935950628583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6367029280757310310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5935213128677859395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1199336754459200296
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4213902560485405950
+    }
+  ],
+  "mCourseParam": {
+    "DriveSpeedRatioMin": 1.0,
+    "DriveSpeedRatioMax": 1.05,
+    "PosMoveTotalMin": 0.0,
+    "PosMoveTotalMax": 0.0,
+    "LapTimeAveMin": 0.0,
+    "LapTimeAveMax": 0.0
+  }
+}

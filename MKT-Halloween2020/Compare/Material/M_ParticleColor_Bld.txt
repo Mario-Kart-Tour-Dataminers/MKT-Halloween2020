@@ -1,0 +1,168 @@
+Material Base
+	string m_Name = "M_ParticleColor_Bld"
+	PPtr<Shader> m_Shader
+		int m_FileID = 13
+		SInt64 m_PathID = -9169588785284470365
+	string m_ShaderKeywords = ""
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_AlphaTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 62
+							SInt64 m_PathID = -8159977853532758688
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+				[1]
+				pair data
+					string first = "_MainTex"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 61
+							SInt64 m_PathID = -7228680436569143668
+						Vector2f m_Scale
+							float x = 1
+							float y = 1
+						Vector2f m_Offset
+							float x = 0
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 25
+				[0]
+				pair data
+					string first = "_AlbedoClampCount"
+					float second = 7
+				[1]
+				pair data
+					string first = "_AlbedoTileFreq"
+					float second = 7
+				[2]
+				pair data
+					string first = "_AlbedoTileSplitU"
+					float second = 3
+				[3]
+				pair data
+					string first = "_AlbedoTileSplitV"
+					float second = 3
+				[4]
+				pair data
+					string first = "_AlphaTextureClampCount"
+					float second = 7
+				[5]
+				pair data
+					string first = "_AlphaTextureTileFreq"
+					float second = 7
+				[6]
+				pair data
+					string first = "_AlphaTextureTileSplitU"
+					float second = 3
+				[7]
+				pair data
+					string first = "_AlphaTextureTileSplitV"
+					float second = 3
+				[8]
+				pair data
+					string first = "_BumpScale"
+					float second = 1
+				[9]
+				pair data
+					string first = "_Cutoff"
+					float second = 0.5
+				[10]
+				pair data
+					string first = "_DetailNormalMapScale"
+					float second = 1
+				[11]
+				pair data
+					string first = "_DstBlend"
+					float second = 0
+				[12]
+				pair data
+					string first = "_GlossMapScale"
+					float second = 1
+				[13]
+				pair data
+					string first = "_Glossiness"
+					float second = 0.5
+				[14]
+				pair data
+					string first = "_GlossyReflections"
+					float second = 1
+				[15]
+				pair data
+					string first = "_Metallic"
+					float second = 0
+				[16]
+				pair data
+					string first = "_Mode"
+					float second = 0
+				[17]
+				pair data
+					string first = "_OcclusionStrength"
+					float second = 1
+				[18]
+				pair data
+					string first = "_Parallax"
+					float second = 0.02
+				[19]
+				pair data
+					string first = "_SmoothnessTextureChannel"
+					float second = 0
+				[20]
+				pair data
+					string first = "_SpecularHighlights"
+					float second = 1
+				[21]
+				pair data
+					string first = "_SrcBlend"
+					float second = 1
+				[22]
+				pair data
+					string first = "_UVSec"
+					float second = 0
+				[23]
+				pair data
+					string first = "_ZWrite"
+					float second = 1
+				[24]
+				pair data
+					string first = "_zOffset"
+					float second = 0
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+				[1]
+				pair data
+					string first = "_EmissionColor"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 1

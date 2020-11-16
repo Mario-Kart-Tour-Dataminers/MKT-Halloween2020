@@ -1,0 +1,79 @@
+Material Base
+	string m_Name = "M_Mobp1_Fountain4Top"
+	PPtr<Shader> m_Shader
+		int m_FileID = 18
+		SInt64 m_PathID = -7192362410938439635
+	string m_ShaderKeywords = ""
+	unsigned int m_LightmapFlags = 4
+	bool m_EnableInstancingVariants = False
+	bool m_DoubleSidedGI = False
+	int m_CustomRenderQueue = -1
+	map stringTagMap
+		Array Array
+		int size = 0
+	vector disabledShaderPasses
+		Array Array
+		int size = 0
+	UnityPropertySheet m_SavedProperties
+		map m_TexEnvs
+			Array Array
+			int size = 1
+				[0]
+				pair data
+					string first = "_AlphaTexture"
+					UnityTexEnv second
+						PPtr<Texture> m_Texture
+							int m_FileID = 0
+							SInt64 m_PathID = 20
+						Vector2f m_Scale
+							float x = 2
+							float y = 1
+						Vector2f m_Offset
+							float x = 0.7
+							float y = 0
+		map m_Floats
+			Array Array
+			int size = 6
+				[0]
+				pair data
+					string first = "_AlphaTextureScrollSpeedU"
+					float second = 0
+				[1]
+				pair data
+					string first = "_AlphaTextureScrollSpeedV"
+					float second = 1.5
+				[2]
+				pair data
+					string first = "_WaveFreq"
+					float second = 1.23
+				[3]
+				pair data
+					string first = "_WaveHeight"
+					float second = 0.001
+				[4]
+				pair data
+					string first = "_WaveSlopeMag"
+					float second = 1
+				[5]
+				pair data
+					string first = "_WaveSpeed"
+					float second = 10
+		map m_Colors
+			Array Array
+			int size = 2
+				[0]
+				pair data
+					string first = "_Color"
+					ColorRGBA second
+						float r = 0.903
+						float g = 1
+						float b = 1
+						float a = 0.822
+				[1]
+				pair data
+					string first = "_WaveCenterPos"
+					ColorRGBA second
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
